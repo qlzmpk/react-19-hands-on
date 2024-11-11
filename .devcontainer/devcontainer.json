@@ -1,0 +1,27 @@
+{
+  "name": "React 19 Hands-on",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "esbenp.prettier-vscode",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "marp-team.marp-vscode",
+        "ms-vscode.live-server"
+      ],
+      "settings": {
+        "livePreview.portNumber": 5000,
+        "[typescript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[typescriptreact]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[markdown]": {
+          "editor.formatOnSave": false
+        }
+      }
+    }
+  }
+}
